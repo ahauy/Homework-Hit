@@ -1,0 +1,55 @@
+.box
+{
+    background-color: rgb(250, 183, 101);
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;;
+}
+
+.text-h
+{
+    display: flex;
+    width: 120px;
+    height: 190px;
+    column-gap: 10px;
+    row-gap: 10px;
+    flex-flow: column wrap;
+}
+
+.text-i
+{
+    width: 30px;
+    height: 190px;
+    display: flex;
+    flex-flow: column wrap;
+    row-gap: 10px;
+}
+
+.text-t
+{
+    display: flex;
+    width: 120px;
+    height: 190px;
+    column-gap: 10px;
+    row-gap: 10px;
+    flex-flow: column wrap;
+}
+
+.text-4
+{
+    display: flex;
+    width: 120px;
+    height: 190px;
+    column-gap: 10px;
+    row-gap: 10px;
+    flex-flow: column wrap;
+}
+
+.content
+{
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}

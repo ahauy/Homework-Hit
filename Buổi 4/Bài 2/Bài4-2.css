@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Karma:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 0;
+    font-family: "Inconsolata", monospace;
+}
+
+.part-1
+{
+    width: 100%;
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: max-content;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    margin-top: 30px;
+}
+
+.part-2
+{
+    width: 100%;
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: max-content;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.part-2-right
+{
+    display: flex;
+}
+
+.part-2-right
+{
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+a:visited, 
+a:link
+{
+    text-decoration: none;
+}
+a:hover,
+a:active
+{
+    text-decoration: underline;
+}
+
+.part-3
+{
+    width: 100%;
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+    margin-bottom: 200px;
+}
+
+img
+{
+    width: 400px;
+    height: 430px;
+}
+
+.part-4
+{
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: max-content;
+    margin-bottom: 30px;
+}
+
+.part-4-center
+{
+    display: flex;
+    justify-content: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    text-align: center;
+}
+
+.part-5
+{
+    width: 100%;
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.part-5-img
+{
+    width: 160px;
+    height: 110px;
+}
