@@ -1,0 +1,167 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div.header
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    border-bottom: 1px solid rgb(152, 152, 152);
+    background-color: white;
+    /* position: -webkit-sticky;
+    position: sticky; */
+}
+
+.header-right
+{
+    display: flex;
+    gap: 40px;
+}
+
+.header-left
+{
+    display: flex;
+    gap: 25px;
+}
+
+.header a
+{
+    text-decoration: none;
+}
+
+div.header
+{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.img-birthday img
+{
+    height: 500px;
+    width: 80%;
+}
+
+.img-birthday
+{
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+    position: relative;
+}
+
+.img-birthday div
+{
+    position: absolute;
+    bottom: 60px;
+    right: 200px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: rgb(218, 153, 73);
+    padding: 8px 15px;
+    font-style: italic;
+}
+
+h2
+{
+    color: rgb(222, 160, 84);
+    font-style: italic;
+    padding: 8px 0px;
+    padding-left: 155px;
+}
+
+.activity
+{
+    display: flex;
+    justify-content: space-between ;
+    padding: 0px 145px;
+    /* position: relative; */
+}
+
+.activity img
+{
+    width: 370px;
+    height: 220px;
+}
+
+/*
+.activity .img-1
+{
+    background-image: url('2.jpeg');
+    background-size: cover;
+    position: relative;
+}
+
+.activity .img-2
+{
+    background-image: url('3.jpeg');
+    background-size: cover;
+    position: relative;
+}
+
+.activity .img-3
+{
+    background-image: url('4.jpeg');
+    background-size: cover;
+    position: relative;
+}
+
+.activity
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 145px;
+}
+
+.text
+{
+
+    width: max-content;
+    height: max-content;
+    background-color: aquamarine;
+    color: white;
+    width: max-content;
+    height: max-content;
+    position: absolute;
+    right: 0px;
+
+} */
+
+.img
+{
+    position: relative;
+}
+
+.text
+{
+    padding: 3px 3px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: rgb(42, 187, 42);
+    color: white;
+    font-size: 15px;
+}
+
+.end
+{
+    width: 100vw;
+    height: 40px;
+    background-color: rgb(243, 168, 76);
+}
+
+.text-end
+{
+    margin-top: 30px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+}
