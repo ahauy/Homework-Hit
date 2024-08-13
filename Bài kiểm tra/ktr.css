@@ -1,0 +1,351 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.part-1
+{
+    background-image: url('banner.jpg');
+    width: 100vw;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    color: white;
+}
+
+.part-1 a
+{
+    color: white;
+}
+
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+
+}
+
+.menu > ul
+{
+    display: flex;
+}
+
+li
+{
+    list-style-type: none;
+    display: inline-block;
+    width: 90px;
+    height: 40px;
+    line-height: 40px;
+    /* background-color: antiquewhite; */
+    text-align: center;
+}
+
+a
+{
+    text-decoration: none;
+    display: block;
+}
+
+.submenu
+{
+    display: none;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.submenu > li
+{
+    border-bottom: 1px solid rgb(182, 181, 181);
+}
+
+.submenu a
+{
+    color: black;
+}
+
+
+.menu li:hover .submenu
+{
+    display: block;
+}
+
+.content
+{
+    text-align: center;
+    position: absolute;
+    width: max-content;
+    height: max-content;
+    top: 40%;
+    left: 37%
+}
+
+.content > div
+{
+    margin-bottom: 20px;
+}
+
+.button
+{
+    position: absolute;
+    color: white;
+    background-color: rgb(255, 0, 0);
+    padding: 15px 8px;
+    width: 150px;
+    left: 30%;
+    border-radius: 5px;
+}
+
+/* .box-content
+{
+    top: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+} */
+
+.content
+{
+    text-align: center;
+}
+.part-2
+{
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box-content-2-left
+{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-2-left
+{
+    width: 30%;
+}
+
+.box-content-2-right
+{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content-2-right
+{
+    width: 60%;
+}
+
+.box-img
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-1
+{
+    background-size: cover;
+    background-color: white
+}
+.part-3 h2
+{
+    text-align: center;
+    margin: 10px;
+}
+
+.part-3 p
+{
+    text-align: center;
+    margin: 10px;
+}
+
+.part-3 div
+{
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.button-3-1
+{
+    text-align: center;
+    background-color: rgb(222, 27, 27);
+    width: 190px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    color: white;
+}
+.button-3-2
+{
+    text-align: center;
+    background-color: rgb(41, 39, 39);
+    width: 190px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+.button-3
+{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.part-3
+{
+    background-color: rgba(225, 225, 225, 0.4);
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.content-3
+{
+    padding: 20px 0px;
+}
+
+.part-4
+{
+    padding-bottom: 5%;
+}
+
+.pic-cir > img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid rgb(162, 160, 160);
+    float: right;
+    margin-left: 8px;
+}
+
+.pic-cir-1 > img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid rgb(162, 160, 160);
+    float: left;
+    margin-right: 8px;
+}
+
+.box-img-content
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+
+.img-content-1 h3
+{
+    text-align: right;
+}
+
+.img-content-1 p
+{
+    text-align: right;
+}
+
+.img-content-1
+{
+    width: 40%;
+    height: max-content;
+}
+
+.img-content-2 h3
+{
+    text-align: left;
+}
+
+.img-content-2 p
+{
+    text-align: left;
+}
+
+.img-content-2
+{
+    width: 40%;
+    height: max-content;
+}
+
+.content-4
+{
+    margin: 5% 0;
+    padding-left: 10%;
+}
+
+.part-5
+{
+    background-image: url('banner.jpg');
+    width: 100vw;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 50%;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.part-5-son div
+{
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.button-5
+{
+    display: flex;
+    justify-content: center;
+}
+
+.button-5 span
+{
+    background-color: rgb(227, 27, 27);
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+.part-6
+{
+    width: 100vw;
+    height: 200px;
+}
+
+.part-6-icon
+{
+    width: 100vw;
+    height: 150px;
+    background-color: rgba(225, 225, 225, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8%;
+}
+
+.end
+{
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+    padding: 20px 0px;
+}
