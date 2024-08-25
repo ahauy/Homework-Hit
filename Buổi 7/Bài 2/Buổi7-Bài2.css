@@ -1,0 +1,71 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.wrapper{
+    height: 100vh;
+    width: 100%;
+}
+
+
+.header{
+    padding: 20px 40px;
+    margin-bottom: 20px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 200px;
+    grid-template-areas: "aa bb bb"
+}
+
+.header-left{
+    background-image: url('Buổi7-Bài2.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* background-attachment: fixed; */
+    grid-area: aa;
+    margin-right: 30px;
+    position: relative;
+}
+
+.header-right{
+    background-image: url('6a.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* background-attachment: fixed; */
+    grid-area: bb;
+    position: relative;
+}
+
+.text{
+    position: absolute;
+    left: 20px;
+    top: 40px;
+}
+
+.wp-content{
+    /* padding-top: 30px; */
+    border: 2px solid rgb(227, 227, 227);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 400px;
+}
+
+.img{
+    padding-top: 18%;
+}
+
+
+.sidebar{
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+.sidebar p{
+    margin: 30px 0px;
+}
